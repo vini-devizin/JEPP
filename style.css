@@ -42,3 +42,25 @@ img {
 details {
     cursor: pointer;
 }
+
+.toggle {
+    position: fixed;
+    right: 5%;
+    top: 5%;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+body.dark {
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+
+div.cont-dark {
+    background-color: white;
+    color: black;
+}
